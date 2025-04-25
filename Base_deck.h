@@ -12,6 +12,6 @@ public:
 	int getValueofCards(); // a function that returns the value of the cards in the player's deck
 	void resetdeck(); // a function that clears dealer's deck
 
-private:
+protected:
 	std::vector<Card> deck; // a vector for the player's deck (his cards)
 };

@@ -6,7 +6,7 @@ void Dealer_deck::draw()
 {
 	float s = 0.0f;
 
-	for (std::vector<Card>::iterator i = dealer_deck.begin(); i != dealer_deck.end(); i++)
+	for (std::vector<Card>::iterator i = deck.begin(); i != deck.end(); i++)
 	{
 		graphics::Brush br;
 		br.texture = i->returnbr();

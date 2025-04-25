@@ -10,6 +10,4 @@ public:
 	void draw(); // // a function that draws player's deck
 	static Player_deck* getInstance();
 	static void releaseInstance() { if (m_instance) delete m_instance; m_instance = nullptr; }
-private:
-	std::vector<Card> player_deck; // a vector for the player's deck (his cards)
 };
