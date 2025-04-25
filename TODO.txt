@@ -1,2 +1,12 @@
 TODO: fix the code by using polymorphism and inheritance
 change to better quality of imgs
+
+DONE:
+
+main.cpp seems fine for now
+deck.cpp seems fine for now
+
+TO FIX:
+
+maybe use inheritance for stand, replay,hit and exit buttons
+maybe use inheritance and polymorphism for player and dealer deck

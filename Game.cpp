@@ -163,7 +163,7 @@ Game* Game::getInstance()
 
 void Game::init()
 {
-	graphics::preloadBitmaps(ASSET_PATH);
+	//graphics::preloadBitmaps(ASSET_PATH);
 	graphics::playMusic(std::string(ASSET_PATH) + "sound.mp3", 0.1f, true, 4000);
 
 	Deck* mydeck = Deck::getInstance();

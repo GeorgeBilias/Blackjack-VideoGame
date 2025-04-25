@@ -45,6 +45,9 @@
     <ClCompile Include="Replay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Base_deck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -75,6 +78,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Replay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Base_deck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -148,6 +148,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Base_deck.cpp" />
     <ClCompile Include="Dealer_deck.cpp" />
     <ClCompile Include="Deck.cpp" />
     <ClCompile Include="Exit.cpp" />
@@ -160,6 +161,7 @@
     <ClCompile Include="Stand.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Base_deck.h" />
     <ClInclude Include="config.h" />
     <ClInclude Include="Dealer_deck.h" />
     <ClInclude Include="Deck.h" />
