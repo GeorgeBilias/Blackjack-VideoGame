@@ -2,13 +2,12 @@
 #include "graphics.h"
 #include "config.h"
 #include "Deck.h"
-#include "Hit.h"
-#include "Stand.h"
 #include "Exit.h"
 #include "Replay.h"
 #include "Card.h"
 #include <iostream>
 #include "Base_deck.h"
+#include "Button.h"
 
 //Game functions
 void Game::update()

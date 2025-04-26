@@ -153,11 +153,9 @@
     <ClCompile Include="Deck.cpp" />
     <ClCompile Include="Exit.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Hit.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Card.cpp" />
     <ClCompile Include="Replay.cpp" />
-    <ClCompile Include="Stand.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base_deck.h" />
@@ -167,9 +165,7 @@
     <ClInclude Include="Exit.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Card.h" />
-    <ClInclude Include="Hit.h" />
     <ClInclude Include="Replay.h" />
-    <ClInclude Include="Stand.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="TODO.txt" />
