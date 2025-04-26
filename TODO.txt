@@ -3,4 +3,4 @@ change to better quality of imgs
 
 TO FIX:
 
-maybe use inheritance for stand, replay,hit and exit buttons
+maybe use inheritance and polymorphism for replay and exit buttons.
