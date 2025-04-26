@@ -10,9 +10,9 @@ void Button::draw() {
     SETCOLOR(br.fill_color, h, h, h);
     br.outline_opacity = 1.0f * m_active;
 
-    if (useDiskShape())
+    if (useDiskShape() && useBackground())
         graphics::drawDisk(getX(), getY(), getWidth() * 0.35f, br);
-    else
+    else if (!useDiskShape() && useBackground())
         graphics::drawRect(getX(), getY(), getWidth(), getHeight(), br);
 
     graphics::resetPose();
@@ -55,5 +55,35 @@ void Stand::draw() {
 }
 
 bool Stand::contains(float x, float y) {
+    return Button::contains(x, y);
+}
+
+Replay* Replay::getInstance() {
+    if (!m_instance) {
+        m_instance = new Replay();
+    }
+    return m_instance;
+}
+
+void Replay::draw() {
+    Button::draw();
+}
+
+bool Replay::contains(float x, float y) {
+    return Button::contains(x, y);
+}
+
+Exit* Exit::getInstance() {
+    if (!m_instance) {
+        m_instance = new Exit();
+    }
+    return m_instance;
+}
+
+void Exit::draw() {
+    Button::draw();
+}
+
+bool Exit::contains(float x, float y) {
     return Button::contains(x, y);
 }

@@ -2,8 +2,6 @@
 #include "graphics.h"
 #include "config.h"
 #include "Deck.h"
-#include "Exit.h"
-#include "Replay.h"
 #include "Card.h"
 #include <iostream>
 #include "Base_deck.h"
