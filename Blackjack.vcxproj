@@ -149,27 +149,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Base_deck.cpp" />
-    <ClCompile Include="Dealer_deck.cpp" />
     <ClCompile Include="Deck.cpp" />
     <ClCompile Include="Exit.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Hit.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Card.cpp" />
-    <ClCompile Include="Player_deck.cpp" />
     <ClCompile Include="Replay.cpp" />
     <ClCompile Include="Stand.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base_deck.h" />
     <ClInclude Include="config.h" />
-    <ClInclude Include="Dealer_deck.h" />
     <ClInclude Include="Deck.h" />
     <ClInclude Include="Exit.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="Hit.h" />
-    <ClInclude Include="Player_deck.h" />
     <ClInclude Include="Replay.h" />
     <ClInclude Include="Stand.h" />
   </ItemGroup>

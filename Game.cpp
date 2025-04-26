@@ -7,9 +7,8 @@
 #include "Exit.h"
 #include "Replay.h"
 #include "Card.h"
-#include "Player_deck.h"
-#include "Dealer_deck.h"
 #include <iostream>
+#include "Base_deck.h"
 
 //Game functions
 void Game::update()
