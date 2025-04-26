@@ -1,6 +1,7 @@
-TODO: fix the code by using polymorphism and inheritance
-change to better quality of imgs
-
 TO FIX:
 
-maybe use inheritance and polymorphism for replay and exit buttons.
+FIX CURSOR WHEN GOING TO THE BUTTONS
+
+TO ADD: 
+
+CURRENCY 
